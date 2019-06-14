@@ -1,0 +1,53 @@
+h2{
+    font-size: bolder;
+    color: brown;
+}
+
+body{
+    font-family: 'vazir';
+    direction: rtl;
+    color: #2b2626;
+    text-align: right;
+}
+
+.Rightnav{
+    height: 100%;
+    width: 0;
+    position:fixed;
+    z-index: 1;
+    top:0;
+    Right:0;
+    background-color: rgb(172, 90, 117);
+    overflow-x: hidden;
+    transition:0.6s;
+    padding-top: 60px;
+    
+}
+
+.Rightnav a{
+    padding: 8px 8px 8px 32px;
+    display: block;
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    transition: 0.3s;
+
+}
+.Rightnav :hover{
+    color: #f1f1f1;
+
+}
+.Rightnav .Close{
+    margin-right: 200px;
+    
+    top:0;
+    right:25px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.More{
+font-size: 20px;
+cursor: pointer;
+
+}
